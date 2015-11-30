@@ -134,7 +134,7 @@ int main(){
 		printf("Pills: %d\n", pill);
 		imprimeMapa(&m);
 		char comando;
-		scanf(" %c", &comando);
+		scanf("%c", &comando);
 		move(comando);
 		if(comando == BOMBA) explode();
 		fantasmas();
